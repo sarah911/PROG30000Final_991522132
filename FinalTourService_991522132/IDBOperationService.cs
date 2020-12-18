@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalTourService_991522132
 {
-    public class Class1
+    class IDBOperationService
     {
     }
 }
