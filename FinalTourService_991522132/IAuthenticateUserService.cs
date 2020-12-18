@@ -12,6 +12,6 @@ namespace FinalTourService_991522132
     public interface IAuthenticateUserService
     {
         [OperationContract]
-        string Login();
+        string Login(User user);
     }
 }
