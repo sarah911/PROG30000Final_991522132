@@ -13,10 +13,10 @@ namespace FinalTourService_991522132
         ABCTourDB_991522132Entities current = new ABCTourDB_991522132Entities();
         public string InsertATour(User user)
         {
-            current.Users.Add(user);
-            current.SaveChanges();
             try
             {
+                current.Users.Add(user);
+                current.SaveChanges();
                 return ("Record inserted");
             }
             catch
